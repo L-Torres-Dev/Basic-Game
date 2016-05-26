@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="15" tileheight="15" nextobjectid="69">
+ <tileset firstgid="1" name="RedFence" tilewidth="15" tileheight="15" spacing="5" tilecount="1" columns="1">
+  <image source="../Obstacles/RedFence.png" width="30" height="30"/>
+ </tileset>
+ <tileset firstgid="2" name="BlueBackground" tilewidth="15" tileheight="15" spacing="5" tilecount="1" columns="1">
+  <image source="../Obstacles/BlueBackground.png" width="30" height="30"/>
+ </tileset>
+ <tileset firstgid="3" name="SpecialBackground" tilewidth="15" tileheight="15" spacing="5" tilecount="1" columns="1">
+  <image source="../Obstacles/SpecialBackground.png" width="30" height="30"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30" opacity="0.9">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKHj+4dekCm4aqqqqr57jz8HCQ==
+  </data>
+ </layer>
+ <layer name="Graphics" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKHj+4dekCm4aqqqqr57jz8HCQ==
+  </data>
+ </layer>
+</map>

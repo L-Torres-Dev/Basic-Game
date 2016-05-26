@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="15" tileheight="15" nextobjectid="66">
+ <tileset firstgid="1" name="RedFence" tilewidth="15" tileheight="15" spacing="5" tilecount="1" columns="1">
+  <image source="../Obstacles/RedFence.png" width="30" height="30"/>
+ </tileset>
+ <tileset firstgid="2" name="BlueBackground" tilewidth="15" tileheight="15" spacing="5" tilecount="1" columns="1">
+  <image source="../Obstacles/BlueBackground.png" width="30" height="30"/>
+ </tileset>
+ <tileset firstgid="3" name="SpecialBackground" tilewidth="15" tileheight="15" spacing="5" tilecount="1" columns="1">
+  <image source="../Obstacles/SpecialBackground.png" width="30" height="30"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30" opacity="0.9">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKHj+4dekCm4aqqqqr57jz8HCQ==
+  </data>
+ </layer>
+ <layer name="Graphics" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOMFJJDalg1N5Re0ftxa8WhgmpIdYsSuyiBDBRKD8KRsEoIA4M9nJjsJbPTKP2jto7au+ovcPUXgASBgBX
+  </data>
+ </layer>
+ <objectgroup name="Special Ground">
+  <object id="34" name="Level 5" x="300" y="0" width="150" height="120"/>
+  <object id="35" name="Level 20" x="300" y="270" width="150" height="180"/>
+  <object id="37" name="Level 10" x="0" y="270" width="150" height="180"/>
+  <object id="38" name="Level 1" x="0" y="0" width="150" height="120"/>
+ </objectgroup>
+ <objectgroup name="Fence">
+  <object id="8" x="285" y="0" width="15" height="135"/>
+  <object id="10" x="405" y="120" width="45" height="15"/>
+  <object id="11" x="300" y="120" width="15" height="15"/>
+  <object id="12" x="405" y="255" width="45" height="15"/>
+  <object id="14" x="285" y="255" width="30" height="15"/>
+  <object id="15" x="285" y="270" width="15" height="180"/>
+  <object id="16" x="150" y="0" width="15" height="120"/>
+  <object id="18" x="135" y="120" width="30" height="15"/>
+  <object id="19" x="0" y="120" width="45" height="15"/>
+  <object id="20" x="0" y="255" width="45" height="15"/>
+  <object id="21" x="135" y="255" width="30" height="15"/>
+  <object id="22" x="150" y="270" width="15" height="180"/>
+ </objectgroup>
+ <objectgroup name="Borders">
+  <object id="61" x="0" y="0" width="450"/>
+  <object id="62" x="450" y="0" height="450"/>
+  <object id="64" x="0" y="450" width="450"/>
+  <object id="65" x="0" y="0" height="450"/>
+ </objectgroup>
+</map>
