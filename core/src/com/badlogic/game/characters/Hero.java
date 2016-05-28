@@ -152,10 +152,10 @@ public class Hero extends Character{
 
 
     private void move() {
-        moveUp = Gdx.input.isKeyPressed(Input.Keys.UP) || Gdx.input.isKeyPressed(Input.Keys.W);
-        moveDown = Gdx.input.isKeyPressed(Input.Keys.DOWN)  || Gdx.input.isKeyPressed(Input.Keys.S);
-        moveRight = Gdx.input.isKeyPressed(Input.Keys.RIGHT)  || Gdx.input.isKeyPressed(Input.Keys.D);
-        moveLeft = Gdx.input.isKeyPressed(Input.Keys.LEFT)  || Gdx.input.isKeyPressed(Input.Keys.A);
+        moveUp = Gdx.input.isKeyPressed(Input.Keys.UP);
+        moveDown = Gdx.input.isKeyPressed(Input.Keys.DOWN);
+        moveRight = Gdx.input.isKeyPressed(Input.Keys.RIGHT);
+        moveLeft = Gdx.input.isKeyPressed(Input.Keys.LEFT);
 
         moveX = 0;
         moveY = 0;
